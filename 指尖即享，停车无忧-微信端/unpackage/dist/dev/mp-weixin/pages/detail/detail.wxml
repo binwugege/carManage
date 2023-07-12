@@ -1,0 +1,1 @@
+<view><view class="continer _div"><block wx:for="{{carArry}}" wx:for-item="item" wx:for-index="index" wx:key="index"><label class="{{['_span',(item.status)?'a':'']}}"></label></block></view></view>

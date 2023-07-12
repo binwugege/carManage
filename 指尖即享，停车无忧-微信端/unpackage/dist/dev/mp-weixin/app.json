@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/message",
+    "pages/detail/detail",
+    "pages/shezhi/shezhi",
+    "pages/login/login",
+    "pages/booking/booking",
+    "pages/userbook/userbook",
+    "pages/userpay/userpay"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "停车管理系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#41f8ec",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#aa99ad",
+    "backgroundColor": "#76d0d4",
+    "selectedColor": "#140718",
+    "position": "bottom",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home.png"
+      },
+      {
+        "text": "车位",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/message.png",
+        "selectedIconPath": "static/message.png"
+      },
+      {
+        "text": "预约",
+        "pagePath": "pages/booking/booking",
+        "iconPath": "static/li/yuyue.png",
+        "selectedIconPath": "static/li/yuyue.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/shezhi/shezhi",
+        "iconPath": "static/shezhi.png",
+        "selectedIconPath": "static/shezhi.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

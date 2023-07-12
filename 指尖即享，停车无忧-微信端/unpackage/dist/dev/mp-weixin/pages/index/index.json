@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "主页设置",
+  "navigationBarBackgroundColor": "#76d0d4",
+  "usingComponents": {
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "car": "/component/desk"
+  }
+}
